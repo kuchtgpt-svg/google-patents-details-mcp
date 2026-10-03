@@ -1,0 +1,33 @@
+{
+  "name": "google-patents-details-mcp",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "MCP server that fetches the full Google Patents record (claims, description, family, citations, legal events) via the SerpApi Google Patents Details API",
+  "main": "index.mjs",
+  "bin": {
+    "google-patents-details-mcp": "index.mjs"
+  },
+  "files": [
+    "index.mjs"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "google-patents",
+    "serpapi",
+    "patents",
+    "claude"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuchtgpt-svg/google-patents-details-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.6.5"
+  }
+}
